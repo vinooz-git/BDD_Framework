@@ -1,5 +1,5 @@
- # :fallen_leaf: :leaves: Testinium-QA :leaves: :fallen_leaf:
-Automating the Testinium browser  (JAVA, Selenium, Cucumber, JUnit, Jira, Jenkins)
+ # :leaves: BDD Framework By Vinothkumar :leaves:
+Automating CRM Pages (JAVA, Selenium, Cucumber, JUnit, Jira, Jenkins)
 
 ### Tools
 
@@ -32,19 +32,18 @@ Automating the Testinium browser  (JAVA, Selenium, Cucumber, JUnit, Jira, Jenkin
 * SELENIUM
 * CUCUMBER
 * JUNIT
-* JIRA
 * JENKINS
 
-### Testinium-QA
+### BDD-Framework
 
-This repository contains a collection of sample `Testinium-QA` projects and libraries that demonstrate how to
+This repository contains a collection of sample `Anh CRM` projects and libraries that demonstrate how to
 use the tool and develop automation script using the Cucumber BDD framework with Java as programming language.
 It generate JSON, HTML and Txt reporters as well. It also generate `screen shots` for your tests if you enable it and
 also generate `error shots` for your failed test cases as well.
 
 ### Installation (pre-requisites)
 
-1. JDK 1.8+ 
+1. JDK 11+ 
 2. Maven 
 3. IntelliJ
 4. IntelliJ Plugins for
@@ -56,7 +55,7 @@ also generate `error shots` for your failed test cases as well.
 
 Git:
 
-    git clone https://github.com/BalamiRR/Testinium-QA.git
+    git clone https://github.com/vinooz-git/BDD_Framework.git
  
 Manually :
 
@@ -93,61 +92,6 @@ public class CukesRunner {
 ```
 
 ### Develop automation scripts using BDD approach - Cucumber-Java
-
-There are already many predefined StepDefinitions which is packaged under `/step_definitions/LoginSD.java` will help you speed
-up your automation development that support both your favorite workaday helpers methods.
-
-Tests are written in the Cucumber framework using the Gherkin Syntax.
-Here is one of the scenarios:
-
-```
-@Login
-Feature: Testinium app login feature
-  User Story:
-  As a user, I should be able to login with correct credentials to different accounts.
-
-  Accounts are: PosManager, SalesManager
-
-  Background: For the scenarios in the feature file, user is expected to be on login page
-    Given User is on the Testinium login page
-
-  #1-Users can log in with valid credentials (We have 5 types of users but will test only 2 user: PosManager, SalesManager)
-  @UPGN-286
-  Scenario Outline: Users log in with valid credentials
-    When User enters "<username>" username
-    And User enters "<password>" password
-    And User clicks the login button
-    Then User should see the dashboard
-  
-  #2-"Wrong login/password" should be displayed for invalid (valid username-invalid password and invalid username-valid password) credentials
-  @UPGN-287
-  Scenario Outline: Users log in with invalid email or invalid password credentials
-    When User enters "<username>" username
-    And User enters "<password>" password
-    And User clicks the login button
-    Then User sees error message
-    
-  #3- "Please fill out this field" message should be displayed if the password or username is empty
-  @UPGN-288
-  Scenario Outline:Users log in with invalid email or invalid password credentials
-    When User enters "<password>" username
-    And User clicks the login button
-    Then User sees "Veuillez renseigner ce champ." message
-
-    @SalesManager
-    Examples: SalesManager's username and password
-      |username               |password    |
-      |salesmanager7@info.com |salesmanager|
-      |salesmanager8@info.com |salesmanager|
-      |salesmanager9@info.com |salesmanager|
-      
-    @PosManager
-    Examples: PosManager's username and password
-      |username               |password  |
-      |posmanager5@info.com   |posmanager|
-      |posmanager6@info.com   |posmanager|
-```
-
 
 ### Jenkins Cucumber Reports
 ![alt text](./image/Jenkins-Cucumber-Reports.png)
