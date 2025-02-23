@@ -4,10 +4,8 @@ node {
     }
 
     stage('Run tests'){
-        if(isUnix()){
-            sh "mvn clean test"
-        } else {
-            bat "mvn clean test"
+        withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Maven', mavenSettingsConfig: '', traceability: true) {
+            clean test
         }
     }
 
