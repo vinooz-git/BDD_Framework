@@ -1,15 +1,33 @@
-node {
-    stage('Clone code') {
-        git branch: 'feature/Maven', url: 'https://github.com/vinooz-git/BDD_Framework.git'
+pipeline {
+    agent any
+    tools {
+          Maven "Maven"
     }
-
-    stage('Run tests'){
-        withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Maven', mavenSettingsConfig: '', traceability: true) {
-            clean test
+    stages
+    {
+        stage('Clone code') {
+           steps
+           {
+            git branch: 'feature/Maven', url: 'https://github.com/vinooz-git/BDD_Framework.git'
+            }
         }
-    }
 
-    stage('Generate report'){
-           ccucumber buildStatus: 'UNCHANGED', customCssFiles: '', customJsFiles: '', failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, reportTitle: 'AnH CRM Regression Report', skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+        stage('Run tests'){
+            steps
+            {
+                if(isUnix()){
+                    sh "mvn clean test"
+                } else {
+                bat "mvn clean test"
+                }
+            }
+        }
+
+        stage('Generate report'){
+           steps
+           {
+           cucumber buildStatus: 'UNCHANGED', customCssFiles: '', customJsFiles: '', failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, reportTitle: 'AnH CRM Regression Report', skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+           }
+        }
     }
 }
