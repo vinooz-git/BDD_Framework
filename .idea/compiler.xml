@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="VK-QA-Automation-BDD" />
         <module name="upgenix-qa" />
+        <module name="Selenium" />
         <module name="Upgenix-QA" />
         <module name="Testinium-QA" />
       </profile>

@@ -1,19 +1,21 @@
 package com.vk.qa.step_definitions;
 
+import com.vk.qa.utilities.AllureListeners;
 import com.vk.qa.utilities.Driver;
+import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
-import org.junit.After;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
+    AllureListeners allureListeners = new AllureListeners();
+
     @After
     public void teardownScenario(Scenario scenario){
-        if(scenario.isFailed()){
-            byte [] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png", scenario.getName());
+        if(scenario.isFailed())
+        {
+            allureListeners.addPageScreenshotinReport();
         }
+
         Driver.closeDriver();
     }
 

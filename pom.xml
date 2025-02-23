@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>testinium-qa</artifactId>
+    <artifactId>Selenium</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -21,6 +21,9 @@
         <cucumber-reporting.version>5.8.2</cucumber-reporting.version>
         <selenium.version>4.26.0</selenium.version>
         <testng.version>7.10.2</testng.version>
+        <allure.version>2.25.0</allure.version>
+        <allure-testng.version>2.29.0</allure-testng.version>
+        <allure.maven>2.12.0</allure.maven>
     </properties>
     <build>
         <plugins>
@@ -36,6 +39,14 @@
                     <includes>
                         <include>**/CukesRunner*.java</include>
                     </includes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>${allure.maven}</version>
+                <configuration>
+                    <reportVersion>${allure.maven}</reportVersion>
                 </configuration>
             </plugin>
         </plugins>
@@ -66,10 +77,38 @@
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
             <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
+            <artifactId>cucumber-testng</artifactId>
             <version>${cucumber.java.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+        </dependency>
+
+                <dependency>
+                    <groupId>io.qameta.allure</groupId>
+                    <artifactId>allure-bom</artifactId>
+                    <version>${allure-testng.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
+
+        <!-- Add necessary Allure dependencies to dependencies section -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-cucumber7-jvm</artifactId>
+            <version>${allure-testng.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allure-testng.version}</version>
+        </dependency>
+
     </dependencies>
 </project>
