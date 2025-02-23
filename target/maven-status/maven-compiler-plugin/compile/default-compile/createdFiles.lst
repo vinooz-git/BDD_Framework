@@ -1,0 +1,6 @@
+com\vk\practise\SingleTonWebDriver.class
+com\vk\qa\utilities\AllureListeners.class
+com\vk\qa\utilities\ProjectConstants.class
+com\vk\qa\utilities\ConfigurationReader.class
+com\vk\qa\utilities\GeneralWrappers.class
+com\vk\qa\utilities\Driver.class

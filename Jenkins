@@ -1,6 +1,6 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/BalamiRR/Upgenix-QA.git'
+        git 'https://github.com/vinooz-git/BDD_Framework.git'
     }
 
     stage('Run tests'){

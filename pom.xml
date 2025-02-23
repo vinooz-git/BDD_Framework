@@ -24,6 +24,9 @@
         <allure.version>2.25.0</allure.version>
         <allure-testng.version>2.29.0</allure-testng.version>
         <allure.maven>2.12.0</allure.maven>
+        <aspectjweaver.version>1.9.22.1</aspectjweaver.version>
+
+        <suite.feature>src/test/resources/suites/SuiteFeatureByTag.xml</suite.feature>
     </properties>
     <build>
         <plugins>
@@ -37,8 +40,24 @@
                     <!--                    <threadCount>4</threadCount>-->
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>**/CukesRunner*.java</include>
+                        <include>**/*Test.java</include>
                     </includes>
+                    <suiteXmlFiles>
+                        <!-- Call Suite name global set up above -->
+                        <suiteXmlFile>${suite.feature}</suiteXmlFile>
+                    </suiteXmlFiles>
+
+                    <rerunFailingTestsCount>1</rerunFailingTestsCount>
+                    <argLine>
+                        -Dfile.encoding=UTF-8
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectjweaver.version}/aspectjweaver-${aspectjweaver.version}.jar"
+                    </argLine>
+                    <reportsDirectory>target/test-output</reportsDirectory>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <systemPropertyVariables>
+                        <allure.results.directory>target/allure-results</allure.results.directory>
+                    </systemPropertyVariables>
+
                 </configuration>
             </plugin>
             <plugin>
@@ -95,7 +114,6 @@
                     <artifactId>allure-bom</artifactId>
                     <version>${allure-testng.version}</version>
                     <type>pom</type>
-                    <scope>import</scope>
                 </dependency>
 
         <!-- Add necessary Allure dependencies to dependencies section -->
