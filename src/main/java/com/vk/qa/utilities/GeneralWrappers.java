@@ -22,13 +22,13 @@ public class GeneralWrappers  {
 
     public static void waitForVisibilityOfElement(By ele)
     {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOfElementLocated(ele));
     }
 
     public static void waitForPageLoaded()
     {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(
+        new WebDriverWait(driver, Duration.ofSeconds(20)).until(
                 webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
     }
 
