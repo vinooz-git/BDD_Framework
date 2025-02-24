@@ -11,8 +11,7 @@ public class ConfigurationReader {
     static {
         try {
             //2 - We need to open the file in java memory: FileInputStream
-
-            FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/vk/qa/Config/configuration.properties");
+            FileInputStream file = new FileInputStream("src/main/java/com/vk/qa/Config/configuration.properties");
 
             //3- Load the properties object using FileInputStream object
             properties.load(file);
