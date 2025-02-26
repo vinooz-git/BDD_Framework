@@ -4,13 +4,13 @@
   <test thread-count="5" parallel="methods" name="Test Runner All Feature By Tag(failed)" verbose="0">
     <parameter name="BROWSER" value="chrome"/>
     <classes>
-      <class name="com.crm.runners.CucumberRunnerTest">
+      <class name="com.crm.runners.CucmberRunnerSanityTest">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="2 4"/>
         </methods>
-      </class> <!-- com.crm.runners.CucumberRunnerTest -->
+      </class> <!-- com.crm.runners.CucmberRunnerSanityTest -->
     </classes>
   </test> <!-- Test Runner All Feature By Tag(failed) -->
 </suite> <!-- Failed suite [Suite Cucumber] -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="62.903" tests="5" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.526" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\pvino\AppData\Local\Temp\surefire14850476957778991202\surefirebooter17841817065032283270.jar C:\Users\pvino\AppData\Local\Temp\surefire14850476957778991202 2025-02-23T12-02-57_335-jvmRun1 surefire4793409871655747069tmp surefire_010802239033158474930tmp"/>
+    <property name="sun.java.command" value="C:\Users\pvino\AppData\Local\Temp\surefire1481955604049824924\surefirebooter10731907842644240883.jar C:\Users\pvino\AppData\Local\Temp\surefire1481955604049824924 2025-02-26T16-16-45_901-jvmRun1 surefire14680726730212220035tmp surefire_014881252670442007991tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pvino\IdeaProjects\BDD_Framework\target\test-classes;C:\Users\pvino\IdeaProjects\BDD_Framework\target\classes;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\pvino\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\pvino\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\pvino\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\pvino\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\pvino\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\pvino\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\pvino\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\pvino\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\pvino\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\pvino\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\pvino\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\pvino\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\pvino\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\pvino\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\pvino\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\pvino\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\pvino\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\pvino\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\pvino\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\pvino\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\pvino\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\pvino\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\pvino\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pvino\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\pvino\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pvino\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pvino\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\pvino\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pvino\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\pvino\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pvino\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pvino\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\pvino\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\pvino\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\pvino\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\pvino\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;"/>
     <property name="allure.results.directory" value="target/allure-results"/>
@@ -25,13 +25,14 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="SuiteName" value="SuiteFeatureByFile.xml"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\pvino\IdeaProjects\BDD_Framework"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pvino\AppData\Local\Temp\surefire14850476957778991202\surefirebooter17841817065032283270.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pvino\AppData\Local\Temp\surefire1481955604049824924\surefirebooter10731907842644240883.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -40,10 +41,12 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="BrowserType" value="firefox"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\pvino\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\pvino\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3.2.2"/>
     <property name="java.version" value="17.0.12"/>
     <property name="user.dir" value="C:\Users\pvino\IdeaProjects\BDD_Framework"/>
     <property name="os.arch" value="amd64"/>
@@ -57,171 +60,84 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Login success&quot;, &quot;Login Test CMS&quot;](1)" classname="com.crm.runners.CucumberRunnerTest" time="7.885"/>
-  <testcase name="runScenario[&quot;Users log in with invalid email or invalid password credentials&quot;, &quot;Login Test CMS&quot;](2)" classname="com.crm.runners.CucumberRunnerTest" time="3.937"/>
-  <testcase name="runScenario[&quot;Users log in with invalid email or invalid password credentials&quot;, &quot;Login Test CMS&quot;](3)" classname="com.crm.runners.CucumberRunnerTest" time="24.704">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()=&apos;Dashboard&apos;] (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\pvino\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52555/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 28fc75cc6091928d530578b605b9bc5d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Dashboard'] (tried for 15 second(s) with 500 milliseconds interval)
+  <testcase name="runScenario[&quot;Open the Product Sale report Menu and list down product by the category - In House Product Sale and get the highest sold product&quot;, &quot;Sale Report validation&quot;](1)" classname="com.crm.runners.CucmberRunnerSanityTest" time="12.701">
+    <failure message="Failed to decode response from marionette&#10;Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [b1a9efe8-ad31-4d8c-b3e7-5ba240a6f1d2, executeScript {script=return document.readyState, args=[]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0.1, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:debuggerAddress: 127.0.0.1:43458, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13980, moz:profile: C:\Users\pvino\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43458/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: b1a9efe8-ad31-4d8c-b3e7-5ba240a6f1d2" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\pvino\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52555/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 28fc75cc6091928d530578b605b9bc5d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b1a9efe8-ad31-4d8c-b3e7-5ba240a6f1d2, executeScript {script=return document.readyState, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0.1, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:debuggerAddress: 127.0.0.1:43458, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13980, moz:profile: C:\Users\pvino\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43458/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b1a9efe8-ad31-4d8c-b3e7-5ba240a6f1d2
 ]]></failure>
     <system-out><![CDATA[
-@AhnRegression @Testing @FailureCase
-Scenario Outline: Users log in with invalid email or invalid password credentials &amp#27;[90m# src/test/resources/features/LoginCMS.feature:34&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to Login Page for Admin&amp#27;[0m                                     &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.user_navigate_to_login_page_for_admin()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter email &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@exampl.com"&amp#27;[0m&amp#27;[32m password &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234567"&amp#27;[0m                     &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.user_enter_email_password(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick Login button&amp#27;[0m                                                          &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.click_login_button()&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is redirected to the Anh Dashboard page&amp#27;[0m                               &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.user_is_redirected_to_the_dashboard_page()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Dashboard'] (tried for 15 second(s) with 500 milliseconds interval)
+@AhnRegression @regression @SaleReport
+Scenario Outline: Open the Product Sale report Menu and list down product by the category - In House Product Sale and get the highest sold product &amp#27;[90m# src/test/resources/features/SaleReport.feature:19&amp#27;[0m
+firefox
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to Login Page for Admin&amp#27;[0m                                                                                                      &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.user_navigate_to_login_page_for_admin()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logs in CRM&amp#27;[0m                                                                                                                            &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.login_CRM()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is redirected to the Anh Dashboard page&amp#27;[0m                                                                                                &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.user_is_redirected_to_the_dashboard_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to Menu &amp#27;[0m&amp#27;[32m&amp#27;[1m"Reports"&amp#27;[0m                                                                                                            &amp#27;[90m# com.crm.step_definitions.Anh.ReportSteps.user_navigate_to_menu_(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser navigate to Menu &amp#27;[0m&amp#27;[31m&amp#27;[1m"In House Product Sale"&amp#27;[0m                                                                                               &amp#27;[90m# com.crm.step_definitions.Anh.ReportSteps.user_navigate_to_menu_(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\pvino\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52555/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 28fc75cc6091928d530578b605b9bc5d
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.vk.qa.utilities.GeneralWrappers.waitForVisibilityOfElement(GeneralWrappers.java:26)
-	at com.crm.pages.LoginPage.verifyTitlePage(LoginPage.java:63)
-	at com.crm.step_definitions.Anh.LoginAnhSteps.user_is_redirected_to_the_dashboard_page(LoginAnhSteps.java:32)
-	at ✽.user is redirected to the Anh Dashboard page(file:///C:/Users/pvino/IdeaProjects/BDD_Framework/src/test/resources/features/LoginCMS.feature:31)
-&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Feb 23, 2025 12:03:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Open the Product Sale report Menu and list down product by the category - In House Product Sale and get the highest sold product&quot;, &quot;Sale Report validation&quot;](4)" classname="com.crm.runners.CucumberRunnerTest" time="8.204"/>
-  <testcase name="runScenario[&quot;Login to admin user and upload the thumbnail images&quot;, &quot;Upload Thumbanil images for the product&quot;](5)" classname="com.crm.runners.CucumberRunnerTest" time="11.71">
-    <failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6e005051ca0e8ddf5253624709615c76, executeScript [args, script]]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\pvino\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52603/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6e005051ca0e8ddf5253624709615c76" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6e005051ca0e8ddf5253624709615c76, executeScript [args, script]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\pvino\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52603/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6e005051ca0e8ddf5253624709615c76
-Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-Caused by: java.net.SocketException: Connection reset
-]]></failure>
-    <system-out><![CDATA[
-@AhnRegression @regression @uploadImage
-Scenario Outline: Login to admin user and upload the thumbnail images                                         &amp#27;[90m# src/test/resources/features/UploadImages.feature:16&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to Login Page for Admin&amp#27;[0m                                                                 &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.user_navigate_to_login_page_for_admin()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logs in CRM&amp#27;[0m                                                                                       &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.login_CRM()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is redirected to the Anh Dashboard page&amp#27;[0m                                                           &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.user_is_redirected_to_the_dashboard_page()&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser navigate to Menu &amp#27;[0m&amp#27;[31m&amp#27;[1m"Uploaded Files"&amp#27;[0m                                                                &amp#27;[90m# com.crm.step_definitions.Anh.ReportSteps.user_navigate_to_menu_(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6e005051ca0e8ddf5253624709615c76, executeScript [args, script]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\pvino\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52603/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6e005051ca0e8ddf5253624709615c76
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b1a9efe8-ad31-4d8c-b3e7-5ba240a6f1d2, executeScript {script=return document.readyState, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0.1, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:debuggerAddress: 127.0.0.1:43458, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13980, moz:profile: C:\Users\pvino\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43458/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b1a9efe8-ad31-4d8c-b3e7-5ba240a6f1d2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
 	at com.vk.qa.utilities.GeneralWrappers.lambda$waitForPageLoaded$0(GeneralWrappers.java:32)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
 	at com.vk.qa.utilities.GeneralWrappers.waitForPageLoaded(GeneralWrappers.java:31)
 	at com.crm.pages.ReportPage.clicksMenu(ReportPage.java:36)
 	at com.crm.step_definitions.Anh.ReportSteps.user_navigate_to_menu_(ReportSteps.java:17)
-	at ✽.User navigate to Menu "Uploaded Files"(file:///C:/Users/pvino/IdeaProjects/BDD_Framework/src/test/resources/features/UploadImages.feature:11)
-Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:495)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:589)
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:454)
-	... 8 more
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:348)
-	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:675)
-	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
-	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-	... 3 more
-Caused by: java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
+	at ✽.User navigate to Menu "In House Product Sale"(file:///C:/Users/pvino/IdeaProjects/BDD_Framework/src/test/resources/features/SaleReport.feature:12)
 &amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser upload file &amp#27;[0m&amp#27;[36m&amp#27;[1m"C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\resources\TestData\download.jpeg"&amp#27;[0m &amp#27;[90m# com.crm.step_definitions.Anh.LoginAnhSteps.user_upload_file(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser filter the report for &amp#27;[0m&amp#27;[36m&amp#27;[1m"Cake"&amp#27;[0m                                                                                                           &amp#27;[90m# com.crm.step_definitions.Anh.ReportSteps.user_filter_the_report_for(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser navigate to all the result page and verify the sold Product&amp#27;[0m                                                                            &amp#27;[90m# com.crm.step_definitions.Anh.ReportSteps.user_navigate_to_all_the_result_page_and_verify_the_sold_product()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser filtered out the highest sold product&amp#27;[0m                                                                                                  &amp#27;[90m# com.crm.step_definitions.Anh.ReportSteps.user_filter_sold_Product()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6e005051ca0e8ddf5253624709615c76, screenshot []]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\pvino\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52603/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6e005051ca0e8ddf5253624709615c76
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b1a9efe8-ad31-4d8c-b3e7-5ba240a6f1d2, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0.1, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:debuggerAddress: 127.0.0.1:43458, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13980, moz:profile: C:\Users\pvino\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43458/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b1a9efe8-ad31-4d8c-b3e7-5ba240a6f1d2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
 	at com.vk.qa.utilities.AllureListeners.addPageScreenshotinReport(AllureListeners.java:23)
 	at com.crm.step_definitions.Hooks.teardownScenario(Hooks.java:16)
-Caused by: java.io.UncheckedIOException: java.net.ConnectException
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:495)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: java.net.ConnectException
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574)
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:454)
-	... 8 more
-Caused by: java.net.ConnectException
-	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
-	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
-	... 3 more
-Caused by: java.nio.channels.ClosedChannelException
-	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
-	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
-	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
-	... 9 more
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Feb 23, 2025 12:03:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 133
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
 </testsuite>

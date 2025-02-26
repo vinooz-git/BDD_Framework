@@ -1,8 +1,12 @@
 C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\pages\LoginPage.java
 C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\pages\ReportPage.java
+C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\runners\CucmberRunnerSanityTest.java
 C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\runners\CucumberRunnerTest.java
 C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\runners\FailedTestRunner.java
 C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\step_definitions\Anh\LoginAnhSteps.java
 C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\step_definitions\Anh\ReportSteps.java
 C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\step_definitions\CommonSteps.java
 C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\crm\step_definitions\Hooks.java
+C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\pratice\FindBrokenLinksInPage.java
+C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\pratice\PracticeTest.java
+C:\Users\pvino\IdeaProjects\BDD_Framework\src\test\java\com\pratice\RelativeLocatorsExample.java

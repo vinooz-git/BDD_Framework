@@ -2,8 +2,10 @@ package com.vk.qa.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 
@@ -23,21 +25,24 @@ public class Driver {
             We read our browserType from configuration.properties.
             This way, we can control which browser is opened from outside our code, from configuration.properties.
             */
-            String browserType = ConfigurationReader.getProperty("browser");
 
-            switch(browserType){
+            //String browserType = ConfigurationReader.getProperty("browser");
+            String browserType = System.getProperty("BrowserType");
+            System.out.println(browserType);
+                switch(browserType){
                 case "chrome":
-
-                    driverPool.set(new ChromeDriver());
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("headless");
+                    driverPool.set(new ChromeDriver(options));
                     driverPool.get().manage().window().maximize();
-                    driverPool.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    driverPool.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
                     break;
                 case "firefox":
-
                     driverPool.set(new FirefoxDriver());
                     driverPool.get().manage().window().maximize();
-                    driverPool.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    driverPool.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
                     break;
+
             }
         }
         return driverPool.get();

@@ -16,11 +16,11 @@ import java.time.Duration;
 
 
 public class LoginPage {
-    private static WebDriver driver;
-    public LoginPage()
-    {
-        driver = Driver.getDriver();
-    }
+        private static WebDriver driver;
+        public LoginPage()
+        {
+                driver = Driver.getDriver();
+        }
 
     //Login
     private By inputEmail    =  By.name("email");

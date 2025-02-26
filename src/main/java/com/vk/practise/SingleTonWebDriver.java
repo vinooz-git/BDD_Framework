@@ -2,6 +2,7 @@ package com.vk.practise;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SingleTonWebDriver {
 
@@ -25,6 +26,7 @@ public class SingleTonWebDriver {
     public WebDriver setDriver()
     {
         driver = new ChromeDriver();
+        new FirefoxDriver();
         return driver;
     }
 }

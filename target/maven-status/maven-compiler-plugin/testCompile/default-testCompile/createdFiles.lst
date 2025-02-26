@@ -6,3 +6,4 @@ com\crm\pages\ReportPage.class
 com\crm\runners\FailedTestRunner.class
 com\crm\step_definitions\CommonSteps.class
 com\crm\runners\CucumberRunnerTest.class
+com\crm\runners\CucmberRunnerSanityTest.class
