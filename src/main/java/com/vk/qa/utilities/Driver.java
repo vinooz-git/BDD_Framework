@@ -28,7 +28,11 @@ public class Driver {
 
             //String browserType = ConfigurationReader.getProperty("browser");
             String browserType = System.getProperty("BrowserType");
-            System.out.println(browserType);
+            if(browserType ==null) {
+                browserType = ConfigurationReader.getProperty("browser");
+                System.out.println("Execution is not running from Maven, so loading the browser type from property File");
+            }
+            System.out.println("Execution Browser : "+browserType);
                 switch(browserType){
                 case "chrome":
                     ChromeOptions options = new ChromeOptions();

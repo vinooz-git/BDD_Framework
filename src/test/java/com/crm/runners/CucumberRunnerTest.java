@@ -9,8 +9,9 @@ import org.testng.annotations.Test;
 @CucumberOptions(
     plugin = {
         "html:target/cucumber-reports.html",
-            "pretty",
-        "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+         "pretty",
+         "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+         "rerun:target/rerun.txt"
     },
     features = "src/test/resources/features",
     glue = "com/crm/step_definitions",

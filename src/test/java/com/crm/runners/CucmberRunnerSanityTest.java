@@ -11,7 +11,9 @@ import org.testng.annotations.Test;
         plugin = {
                 "html:target/cucumber-reports.html",
                 "pretty",
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+                "rerun:rerun.txt"
+
         },
         glue = "com/crm/step_definitions",
         features = "src/test/resources/features/SaleReport.feature",
